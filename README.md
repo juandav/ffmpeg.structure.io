@@ -15,11 +15,20 @@ var iofs = require('ffmpeg.structure.io')
 ## Create Structure
 
 ```js
-var arr = [360,480,720];
+ var formats = [{
+      input: 'test.mp4',
+      format: '640x360',
+      quality: '360p',
+      bandwith: ''
+    },{
+      input: 'test.mp4',
+      format: '848x480',
+      quality: '480p',
+      bandwith: ''
+    }];
 
-iofs.createFolderffmpeg(arr, function(arrSuccess){
-  //arrSuccess is for example arrSuccess[true, true, true]
-  console.log(arrSuccess);
+iofs.createFileHlsForQuality(formats, function(data){
+  //data is true or false
+  console.log(data);
 });
 ```
-`
