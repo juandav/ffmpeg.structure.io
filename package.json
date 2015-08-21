@@ -1,0 +1,33 @@
+{
+  "name": "ffmpeg.structure.io",
+  "version": "0.0.1",
+  "description": "A quick way to create a tree structure ffmpeg",
+  "main": "./lib/ffmpeg.structure.io.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juandav/ffmpeg.structure.io.git"
+  },
+  "keywords": [
+    "ffmpeg",
+    "hls",
+    "video",
+    "splash",
+    "tree",
+    "structure"
+  ],
+  "author": "Juan David Echeverry Rivera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juandav/ffmpeg.structure.io/issues"
+  },
+  "homepage": "https://github.com/juandav/ffmpeg.structure.io#readme",
+  "dependencies": {
+    "ffmpeg.io": "^0.0.3"
+  }
+}
