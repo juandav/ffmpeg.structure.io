@@ -9,16 +9,17 @@ npm install --save ffmpeg.structure.io
 
 ## Usage
 ```js
-var iofs = require('ffmpeg.io')
+var iofs = require('ffmpeg.structure.io')
 ```
 
-## Change Quality
+## Create Structure
 
 ```js
 var arr = [360,480,720];
 
-iof.createFolderffmpeg(arr, function(arrSuccess){
+iofs.createFolderffmpeg(arr, function(arrSuccess){
   //arrSuccess is for example arrSuccess[true, true, true]
   console.log(arrSuccess);
 });
 ```
+`
